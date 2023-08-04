@@ -1,0 +1,22 @@
+.idiomElement {
+  display: flex;
+  flex-direction: column;
+
+  width: 600px;
+  margin-top: 20px;
+  padding: 40px;
+  border-radius: 16px;
+
+  font-size: 1.2em;
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=7e4aec&c2=842447&gt=l&gd=dtl
+*/
+  background: #7E4AEC;
+  background: linear-gradient(135deg, #7E4AEC, #842447);
+}
+
+.idiomElement iframe {
+  width: 100%;
+}
