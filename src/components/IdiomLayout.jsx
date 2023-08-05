@@ -11,7 +11,7 @@ export default function IdiomLayout ({ idiom }) {
               <p>Traducción: <i>{idiom.translate}</i></p>
               <p>Ejemplo: <i>"{idiom.example}"</i></p>
               {
-                idiom.video && <iframe width="560" height="315" src={idiom.video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                idiom.video && <iframe height="315" src={idiom.video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               }
             </div>
           // ))

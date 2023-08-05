@@ -33,13 +33,15 @@ export default function App() {
 
 
   return (
+    <div className="content-container">
+    <HeaderLayout />
     <main>
-      <HeaderLayout />
       <button onClick={generateRandomIdiom}>Generate!</button>
       {
         randomIdiom && <IdiomLayout idiom={randomIdiom} />
       }
-      <FooterLayout />
     </main>
+    <FooterLayout />
+    </div>
   )
 }
