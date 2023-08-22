@@ -36,7 +36,8 @@ export default function App() {
     <div className="content-container">
     <HeaderLayout />
     <main>
-      <button onClick={generateRandomIdiom}>Generate!</button>
+      <button onClick={generateRandomIdiom}>Generar</button>
+      <small>(o pulsa la barra espaciadora)</small>
       {
         randomIdiom && <IdiomLayout idiom={randomIdiom} />
       }
